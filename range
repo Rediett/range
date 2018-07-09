@@ -1,0 +1,19 @@
+def ma(num):
+    no = num[0]
+    for i in range(len(num)):
+        if arr[i] > no:
+            no = arr[i]
+    return no
+    
+def mi(nu):
+    no = nu[0]
+    for i in range(len(nu)):
+        if arr[i] < no:
+            no = arr[i]
+    return no
+def ans(x ,y):
+    hi = x - y
+    return hi 
+    
+arr = [10,4,6,2]
+print("The range is",ans(ma(arr), mi(arr)))
